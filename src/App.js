@@ -4,6 +4,7 @@ import Highcharts from 'highcharts';
 import drilldown from "highcharts/modules/drilldown.js";
 import HighchartsReact from 'highcharts-react-official';
 import './App.css';
+require("highcharts/modules/accessibility")(Highcharts);
 
 //drilldown(HighCharts);
 
