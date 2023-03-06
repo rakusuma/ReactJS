@@ -8,8 +8,10 @@ jobs:
       - checkout
       - run:
           name: Install Dependencies
-          command: 
-          npm install;           npm install highcharts
+          command: npm install
+       - run:
+          name: Install highcharts Dependencies
+          command: npm install highcharts
       - run:
           name: Run tests
           command: npm run test
