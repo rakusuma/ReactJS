@@ -13,5 +13,8 @@ jobs:
           name: Install Dependencies
           command: npm install highcharts --save
       - run:
+          name: Install High Chart Official
+          command:  npm install highcharts-react-official
+      - run:
           name: Run tests
           command: npm run test
