@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/ReactJSHighCharts
+    working_directory: ~/repo
     docker:
       - image: cimg/node:18.10.0
     steps:
@@ -9,9 +9,6 @@ jobs:
       - run:
           name: Install Dependencies
           command: npm install
-       - run:
-          name: Install highcharts Dependencies
-          command: npm install highcharts
       - run:
           name: Run tests
           command: npm run test
