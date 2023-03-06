@@ -9,7 +9,6 @@ require("highcharts/modules/accessibility")(Highcharts);
 //drilldown(HighCharts);
 
 
-
 const options = {
   chart: {	  type: 'column'  },
   title: {     text: 'My chart'  },
